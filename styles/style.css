@@ -100,7 +100,31 @@
 #quick-list{
   font-weight: 500;
 }
-
+/* some fact related styles */
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.fact-card{
+  border: 1px solid #FF900E;
+  height: 240px;
+  width: 240px;
+  border-radius: 8px;
+   align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.fact-number{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.act-name{
+  font-size: 1.25rem;
+  font-size: 600;
+  margin-top: 10px;
+}
 
   /* responsive media query  */
   @media screen and (max-width:576px) {
